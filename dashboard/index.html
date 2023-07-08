@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recruitment Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://th.bing.com/th/id/OIG.xaLdboudlGGm50kMA5BM?w=173&h=173&c=6&pcl=1b1a19&r=0&o=5&dpr=1.3&pid=ImgGn"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Recruit IT</h1>
+      <h1 class="heading">Recruitment Dashboard</h1>
+    </header>
+    <main>
+      <section id="searchSection">
+        <h2>Candidate Search</h2>
+        <div class="searchForm">
+          <input type="text" id="locationInput" placeholder="Enter location" />
+          <input type="text" id="jobRoleInput" placeholder="Enter job role" />
+          <button id="searchButton">Search</button>
+        </div>
+      </section>
+      <section id="candidatesSection">
+        <h2>Search Results</h2>
+        <div id="candidateList"></div>
+      </section>
+      <section id="favoritesSection">
+        <h2>Favorites</h2>
+        <div id="favoritesList"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #6333eb;
+  color: white;
+}
+
+header {
+  display: flex;
+  background-color: #edf0f0;
+  color: #6333eb;
+  padding: 20px;
+  height: fit-content;
+  text-align: center;
+}
+.heading {
+  margin-left: 30vw;
+  font-size: xx-large;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.searchForm {
+  margin-top: 20px;
+}
+
+.searchForm input,
+.searchForm button {
+  margin: 5px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 15px;
+}
+.searchForm button {
+  cursor: pointer;
+}
+.searchForm button:hover {
+  scale: 0.96;
+}
+#candidateList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.candidateCard {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+}
+
+.candidateCard img {
+  width: 100%;
+  height: auto;
+}
+
+.candidateCard p {
+  margin: 5px 0;
+}
+
+#favoritesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

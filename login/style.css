@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-image: url("https://wallpapercave.com/wp/wp9764012.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: center;
+}
+#main {
+  margin: 5vw;
+  margin-left: 35vw;
+  margin-top: 15vh;
+  padding: 50px;
+  display: block;
+  background-image: none;
+}
+#main h1 {
+  text-decoration: wavy;
+  background-image: none;
+}
+#main h3 {
+  margin-top: 3px;
+  text-align: start;
+  text-decoration: wavy;
+  background-image: none;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 15px;
+  background-image: none;
+}
+#form input {
+  border-radius: 15px;
+  padding: 15px;
+  border: 1px solid black;
+  width: 20vw;
+  background-image: none;
+  margin-top: 10px;
+}
+#form a {
+  margin-top: 5px;
+  text-align: start;
+}
+#checkbox {
+  margin-left: -135px;
+  background-image: none;
+}
+#checkbox label {
+  margin-left: -140px;
+  background-image: none;
+}
+#submit {
+  background-color: #6956e4;
+  color: white;
+  background-image: none;
+}
+#submit:hover {
+  background-color: blueviolet;
+  size: 50px;
+  z-index: 2;
+}
+.registered {
+  display: flex;
+  margin: 15px;
+  margin-left: 50px;
+  background-image: none;
+}
+.registered p {
+  background-image: none;
+}
+.registered a {
+  text-decoration: none;
+  margin-left: 2px;
+  background-image: none;
+}
